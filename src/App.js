@@ -31,11 +31,6 @@ function App() {
     setDogsData([...dogsData,dogsInsert])
   }
 
-  // const deleteDog = (id) => {
-  //   const findListDog = dogsData.filter((dog,index) => index !== id)
-  //   setDogsInsert(findListDog)
-  // }
-
   // const [ dogsFavorite, setDogsFavorite] = useState({})
   // const handleChangeFav = (event) => {
   //   let property = event.target.name
@@ -46,7 +41,6 @@ function App() {
   // const saveFavDog = () => {
   //   setDogsDataFav([...dogsFavorite,dogsInsert])
   // }
-
 
 
   return (
